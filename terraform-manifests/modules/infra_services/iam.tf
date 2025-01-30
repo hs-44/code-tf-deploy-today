@@ -13,7 +13,8 @@ resource "aws_iam_policy" "ec2_policy" {
         Effect = "Allow",
         Action = [
           "ec2:Describe*",
-          "s3:Get*"
+          "s3:Get*",
+          "s3:List*"
         ],
         Resource = "*"
       }
