@@ -23,5 +23,5 @@ module "infra_services" {
   private_cidrs = ["172.31.5.0/24","172.31.6.0/24"]
   bucket_name = "qa-terraform-s3-bucket-data"
   bucket_acl  = "private"
-  instance_key_name = "nk1"
+  instance_key_name = "hs1"
 }
