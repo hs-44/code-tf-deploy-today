@@ -10,8 +10,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "aws-devops-testbucket-for-cb"
-    key    = "aws-devops-testbucket-for-cb"
+    bucket = "aws-devops-testbucket-for-cb1"
+    key    = "aws-devops-testbucket-for-cb1"
     region = "ap-south-1"
   }
 }
