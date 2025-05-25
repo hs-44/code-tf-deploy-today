@@ -49,3 +49,4 @@ resource "aws_iam_instance_profile" "ec2_profile" {
   name = "${var.cloud_env}-ec2-role"
   role = aws_iam_role.ec2_s3_access_role.name
 }
+
